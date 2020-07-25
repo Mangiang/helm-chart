@@ -3,6 +3,16 @@ entries:
   cloud-game-engine-backend:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2020-07-25T16:39:07.575618186Z"
+    description: A Helm chart for Kubernetes
+    digest: 8defe6fe2bd34affa5a83911053ed05e6f401f33050c6328ef2c6c38febe4d3b
+    name: cloud-game-engine-backend
+    type: application
+    urls:
+    - https://github.com/Mangiang/helm-chart/releases/download/cloud-game-engine-backend-1.0.2/cloud-game-engine-backend-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2020-07-25T15:58:24.981055204Z"
     description: A Helm chart for Kubernetes
     digest: 73a531edbaafe61ab45cba45cec8a0df29c0df4faec39f9d48b3a5d139c9a619
@@ -22,6 +32,20 @@ entries:
     - https://github.com/Mangiang/helm-chart/releases/download/cloud-game-engine-backend-1.0.0/cloud-game-engine-backend-1.0.0.tgz
     version: 1.0.0
   cloud-game-engine-frontend:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2020-07-25T16:39:07.652801579Z"
+    dependencies:
+    - name: cloud-game-engine-backend
+      repository: https://mangiang.github.io/helm-chart/
+      version: 1.0.1
+    description: A Helm chart for Kubernetes
+    digest: da4f799e5b5e76b65cfa1fd26883a8f1316e78be8610d774ca40deb36ca9b610
+    name: cloud-game-engine-frontend
+    type: application
+    urls:
+    - https://github.com/Mangiang/helm-chart/releases/download/cloud-game-engine-frontend-1.0.3/cloud-game-engine-frontend-1.0.3.tgz
+    version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.0
     created: "2020-07-25T15:58:25.076958819Z"
@@ -45,6 +69,16 @@ entries:
   cloud-game-engine-logger-backend:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2020-07-25T16:39:07.723572681Z"
+    description: A Helm chart for Kubernetes
+    digest: 98f1c708ed2796a2acb6503cc718807b606b122a46e665febb352dbd3823f624
+    name: cloud-game-engine-logger-backend
+    type: application
+    urls:
+    - https://github.com/Mangiang/helm-chart/releases/download/cloud-game-engine-logger-backend-1.0.2/cloud-game-engine-logger-backend-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2020-07-25T15:58:25.146460151Z"
     description: A Helm chart for Kubernetes
     digest: e821ea807a721e45ecb856208cee461bdd98e89388e2bcad3a4b2b36681a792f
@@ -64,6 +98,20 @@ entries:
     - https://github.com/Mangiang/helm-chart/releases/download/cloud-game-engine-logger-backend-1.0.0/cloud-game-engine-logger-backend-1.0.0.tgz
     version: 1.0.0
   cloud-game-engine-logger-frontend:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2020-07-25T16:39:07.799159777Z"
+    dependencies:
+    - name: cloud-game-engine-logger-backend
+      repository: https://mangiang.github.io/helm-chart/
+      version: 1.0.1
+    description: A Helm chart for Kubernetes
+    digest: 70943388189ccbc4ca31b60b807d568ed6b63cedc8c775747ea5f49b47e8c9ab
+    name: cloud-game-engine-logger-frontend
+    type: application
+    urls:
+    - https://github.com/Mangiang/helm-chart/releases/download/cloud-game-engine-logger-frontend-1.0.4/cloud-game-engine-logger-frontend-1.0.4.tgz
+    version: 1.0.4
   - apiVersion: v2
     appVersion: 1.0.0
     created: "2020-07-25T16:11:58.970143808Z"
@@ -159,6 +207,17 @@ entries:
   helm-web-api:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2020-07-25T16:39:07.901593135Z"
+    description: Dynamically deploy applications to kubernetes cluster and expose
+      them externally via a single IP
+    digest: 49e3138e64b6b865fd587efcf84a5be4533e4eaf97c3efad60f75285fafefb99
+    name: helm-web-api
+    type: application
+    urls:
+    - https://github.com/Mangiang/helm-chart/releases/download/helm-web-api-1.0.1/helm-web-api-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2020-07-25T15:01:59.301778491Z"
     description: Dynamically deploy applications to kubernetes cluster and expose
       them externally via a single IP
@@ -169,6 +228,27 @@ entries:
     - https://github.com/Mangiang/helm-chart/releases/download/helm-web-api-1.0.0/helm-web-api-1.0.0.tgz
     version: 1.0.0
   rabbitmq:
+  - apiVersion: v2
+    appVersion: 3.8.5
+    created: "2020-07-25T16:39:07.996298804Z"
+    description: Open source message broker software that implements the Advanced
+      Message Queuing Protocol (AMQP)
+    digest: 5d00c85a7977f48302ca04aaead0f2e40da23d4b2cffbdfe45155d117f5b8e2d
+    home: https://www.rabbitmq.com
+    icon: https://bitnami.com/assets/stacks/rabbitmq/img/rabbitmq-stack-220x234.png
+    keywords:
+    - rabbitmq
+    - message queue
+    - AMQP
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: rabbitmq
+    sources:
+    - https://github.com/bitnami/bitnami-docker-rabbitmq
+    urls:
+    - https://github.com/Mangiang/helm-chart/releases/download/rabbitmq-1.0.1/rabbitmq-1.0.1.tgz
+    version: 1.0.1
   - apiVersion: v2
     appVersion: 3.8.5
     created: "2020-07-25T15:01:59.383834521Z"
