@@ -1,6 +1,6 @@
 apiVersion: v2
-name: cloud-game-engine-logger-frontend
-description: A Helm chart for Kubernetes
+name: helm-web-api
+description: Dynamically deploy applications to kubernetes cluster and expose them externally via a single IP
 
 # A chart can be either an 'application' or a 'library' chart.
 #
