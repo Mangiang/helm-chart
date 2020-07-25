@@ -25,6 +25,8 @@ jobs:
     # Runs Helm Chart Releaser
     - name: Helm Chart Releaser
       uses: helm/chart-releaser-action@v1.0.0-rc.2
+      env:
+          CR_TOKEN: "${{ secrets.CR_TOKEN }}"
       with:
         # The chart-releaser version to use (default: v1.0.0-beta.1)
         #version: # optional
