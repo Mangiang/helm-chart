@@ -9,7 +9,7 @@ image:
   registry: shirito
   name: helm-web-api
   tag: latest
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 
 service:
   type: ClusterIP
