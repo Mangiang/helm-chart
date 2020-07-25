@@ -15,4 +15,4 @@ maintainers:
 name: rabbitmq
 sources:
 - https://github.com/bitnami/bitnami-docker-rabbitmq
-version: 1.0.1
+version: 1.0.2
