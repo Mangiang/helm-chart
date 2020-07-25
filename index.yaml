@@ -296,6 +296,27 @@ entries:
   rabbitmq:
   - apiVersion: v2
     appVersion: 3.8.5
+    created: "2020-07-25T23:19:20.255808971Z"
+    description: Open source message broker software that implements the Advanced
+      Message Queuing Protocol (AMQP)
+    digest: a0c683597f91d72c8188a6c65ff7a3166e8e3cdd99e00e08756e50acc29932fc
+    home: https://www.rabbitmq.com
+    icon: https://bitnami.com/assets/stacks/rabbitmq/img/rabbitmq-stack-220x234.png
+    keywords:
+    - rabbitmq
+    - message queue
+    - AMQP
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: rabbitmq
+    sources:
+    - https://github.com/bitnami/bitnami-docker-rabbitmq
+    urls:
+    - https://github.com/Mangiang/helm-chart/releases/download/rabbitmq-1.0.2/rabbitmq-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
+    appVersion: 3.8.5
     created: "2020-07-25T16:39:07.996298804Z"
     description: Open source message broker software that implements the Advanced
       Message Queuing Protocol (AMQP)
