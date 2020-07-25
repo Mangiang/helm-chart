@@ -12,7 +12,7 @@ image:
 
 imagePullSecrets: []
 nameOverride: ""
-fullnameOverride: "cge-logger-frontend"
+fullnameOverride: "cloud-game-engine-logger-frontend"
 
 serviceAccount:
   # Specifies whether a service account should be created
