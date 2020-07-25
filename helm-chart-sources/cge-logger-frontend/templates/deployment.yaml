@@ -1,7 +1,8 @@
+{{- $fullName := include "cloud-game-engine-logger-frontend.fullname" . -}}
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ include "cloud-game-engine-logger-frontend.fullname" . }}
+  name: {{ $fullName }}
   labels:
     {{- include "cloud-game-engine-logger-frontend.labels" . | nindent 4 }}
 spec:
@@ -43,11 +44,11 @@ spec:
               protocol: TCP
           livenessProbe:
             httpGet:
-              path: /plugins/logger
+              path: /
               port: http
           readinessProbe:
             httpGet:
-              path: /plugins/logger
+              path: /
               port: http
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
