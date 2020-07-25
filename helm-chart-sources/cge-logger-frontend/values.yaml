@@ -54,7 +54,7 @@ ingress:
     # kubernetes.io/tls-acme: "true"
   hosts:
     - host: localhost
-      paths: ['/plugins/cloud-game-engine-logger-frontend(.*)']
+      paths: ['/plugins/cloud-game-engine-logger-frontend([/]?.*)']
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:
