@@ -13,7 +13,7 @@ image:
 
 service:
   type: ClusterIP
-  port: 4000
+  port: 4002
 
 namespace: default
 
@@ -33,7 +33,7 @@ ingress:
     - host: localhost
       paths:
         - path: /helm/(.*)
-          port: 4000
+          port: 4002
 
 # configuration for the rbac namespaces, service accounts, roles and binding names
 rbac:
