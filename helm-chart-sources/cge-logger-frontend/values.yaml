@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: shirito/cge-logger-frontend
+  repository: shirito/cloud-game-engine-logger-frontend
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart version.
   tag: "latest"
