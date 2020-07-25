@@ -22,19 +22,6 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
-    # Runs Helm Chart Testing
-    - name: Helm Chart Testing
-      uses: helm/chart-testing-action@v1.0.0-rc.2
-      with:
-        # The chart-testing Docker image to use (default: quay.io/helmpack/chart-testing:v3.0.0-rc.1)
-        image: # optional
-        # The relative path to the chart-testing config file
-        config: # optional
-        # The chart-testing command to run
-        command: 
-        # The path to the kube config file
-        kubeconfig: # optional
-
     # Runs Helm Chart Releaser
     - name: Helm Chart Releaser
       uses: helm/chart-releaser-action@v1.0.0-rc.2
