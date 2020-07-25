@@ -3,6 +3,16 @@ entries:
   cloud-game-engine-logger-frontend:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2020-07-25T03:28:25.167741502Z"
+    description: A Helm chart for Kubernetes
+    digest: e70df540c08c9c3b3a83030413a767a1fbb51aded95dcfc86ac5e66427c2a117
+    name: cloud-game-engine-logger-frontend
+    type: application
+    urls:
+    - https://github.com/Mangiang/helm-chart/releases/download/cloud-game-engine-logger-frontend-0.1.5/cloud-game-engine-logger-frontend-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2020-07-25T02:54:06.426982546Z"
     description: A Helm chart for Kubernetes
     digest: 5cdc81b7d217761d411e3a6b73d8311c4a030e008c1f60df30e7995e611f83fe
