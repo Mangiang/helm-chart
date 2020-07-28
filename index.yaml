@@ -91,6 +91,17 @@ entries:
     urls:
     - https://github.com/Mangiang/helm-chart/releases/download/cloud-game-engine-game-view-1.0.0/cloud-game-engine-game-view-1.0.0.tgz
     version: 1.0.0
+  cloud-game-engine-game-view-backend:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2020-07-28T22:35:09.405545307Z"
+    description: A Helm chart for Kubernetes
+    digest: 4243901963e4d67c09c9b9f00e14667bfbe584ba62d158311f41934021f604fa
+    name: cloud-game-engine-game-view-backend
+    type: application
+    urls:
+    - https://github.com/Mangiang/helm-chart/releases/download/cloud-game-engine-game-view-backend-1.0.0/cloud-game-engine-game-view-backend-1.0.0.tgz
+    version: 1.0.0
   cloud-game-engine-logger-backend:
   - apiVersion: v2
     appVersion: 1.0.0
