@@ -12,3 +12,4 @@
   - [cloud-game-engine-logger](https://github.com/Mangiang/cloud-game-engine-logger)
     - cloud-game-engine-backend
     - cloud-game-engine-frontend
+  - [cloud-game-engine-game-view](https://github.com/Mangiang/cloud-game-engine-game-view)
