@@ -380,6 +380,36 @@ entries:
     urls:
     - https://github.com/Mangiang/helm-chart/releases/download/helm-web-api-1.0.0/helm-web-api-1.0.0.tgz
     version: 1.0.0
+  kafka:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v1
+    appVersion: 2.5.0
+    created: "2020-07-29T16:34:14.979929973Z"
+    dependencies:
+    - condition: zookeeper.enabled
+      name: zookeeper
+      repository: https://charts.bitnami.com/bitnami
+      version: 5.x.x
+    description: Apache Kafka is a distributed streaming platform.
+    digest: e8e2ab01f5198b8d1a9ca6128fcff5897d5f1e9cf3beefa208f122dcdee5ad94
+    home: https://kafka.apache.org/
+    icon: https://bitnami.com/assets/stacks/kafka/img/kafka-stack-110x117.png
+    keywords:
+    - kafka
+    - zookeeper
+    - streaming
+    - producer
+    - consumer
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: kafka
+    sources:
+    - https://github.com/bitnami/bitnami-docker-kafka
+    urls:
+    - https://github.com/Mangiang/helm-chart/releases/download/kafka-11.6.1/kafka-11.6.1.tgz
+    version: 11.6.1
   rabbitmq:
   - apiVersion: v2
     appVersion: 3.8.5
