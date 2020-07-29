@@ -31,6 +31,17 @@ entries:
     urls:
     - https://github.com/Mangiang/helm-chart/releases/download/cloud-game-engine-backend-1.0.0/cloud-game-engine-backend-1.0.0.tgz
     version: 1.0.0
+  cloud-game-engine-example-cube-move:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2020-07-29T02:45:49.91501699Z"
+    description: A Helm chart for Kubernetes
+    digest: 0b1186c27b2daa6e69e2e542024079480c8bd1e6b7a54b56fe0eafd844d86e50
+    name: cloud-game-engine-example-cube-move
+    type: application
+    urls:
+    - https://github.com/Mangiang/helm-chart/releases/download/cloud-game-engine-example-cube-move-1.0.0/cloud-game-engine-example-cube-move-1.0.0.tgz
+    version: 1.0.0
   cloud-game-engine-frontend:
   - apiVersion: v2
     appVersion: 1.0.0
