@@ -34,6 +34,16 @@ entries:
   cloud-game-engine-example-cube-move:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2020-07-29T04:17:39.137624324Z"
+    description: A Helm chart for Kubernetes
+    digest: 3356edd7c9dddc2510aa12ab27c4bd6bdcef20cd73f55c4dd6c95175299111de
+    name: cloud-game-engine-example-cube-move
+    type: application
+    urls:
+    - https://github.com/Mangiang/helm-chart/releases/download/cloud-game-engine-example-cube-move-1.0.1/cloud-game-engine-example-cube-move-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2020-07-29T02:45:49.91501699Z"
     description: A Helm chart for Kubernetes
     digest: 0b1186c27b2daa6e69e2e542024079480c8bd1e6b7a54b56fe0eafd844d86e50
@@ -94,6 +104,16 @@ entries:
   cloud-game-engine-game-view:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2020-07-29T04:17:39.204016559Z"
+    description: A Helm chart for Kubernetes
+    digest: 6bdc84ef6a5477766c8e095485dfedaafa56a1d5f59a13ef17264cba5197cc21
+    name: cloud-game-engine-game-view
+    type: application
+    urls:
+    - https://github.com/Mangiang/helm-chart/releases/download/cloud-game-engine-game-view-1.0.1/cloud-game-engine-game-view-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2020-07-28T15:19:47.704896401Z"
     description: A Helm chart for Kubernetes
     digest: 2602a74e5cf08064838725a4faf1f4c89ed1364c50f9a5de321763f586e09fe4
@@ -103,6 +123,16 @@ entries:
     - https://github.com/Mangiang/helm-chart/releases/download/cloud-game-engine-game-view-1.0.0/cloud-game-engine-game-view-1.0.0.tgz
     version: 1.0.0
   cloud-game-engine-game-view-backend:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2020-07-29T04:17:39.277509576Z"
+    description: A Helm chart for Kubernetes
+    digest: 7c60892b944c48f4f32e840e431361665d5e1727c01f205998f94b0a2271b76e
+    name: cloud-game-engine-game-view-backend
+    type: application
+    urls:
+    - https://github.com/Mangiang/helm-chart/releases/download/cloud-game-engine-game-view-backend-1.0.1/cloud-game-engine-game-view-backend-1.0.1.tgz
+    version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
     created: "2020-07-28T22:35:09.405545307Z"
