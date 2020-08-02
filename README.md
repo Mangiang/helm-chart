@@ -10,6 +10,7 @@
     - [cloud-game-engine-frontend](https://github.com/Mangiang/cloud-game-engine-frontend)
   - rabbitmq
   - kafka
+    - [kafdrop](https://github.com/obsidiandynamics/kafdrop)
   - [helm-web-api](https://github.com/Mangiang/helm-web-api)
 - Plugins
   - [cloud-game-engine-logger](https://github.com/Mangiang/cloud-game-engine-logger)
